@@ -9,7 +9,7 @@ This project is designed to fetch and analyze volunteer data from **Galaxy Digit
 
 <a href="url"><img src="https://github.com/user-attachments/assets/80219984-9a02-4c5b-9425-33bca9f02746" align="left" height="620" width="1000" ></a>
 
-<p>&nbsp;</p>
+
 <p>&nbsp;</p>
 
 ## 🎯 Features
@@ -17,4 +17,17 @@ This project is designed to fetch and analyze volunteer data from **Galaxy Digit
 - 🔗 Integrates with **Google Sheets** as a data connector via **Google Apps Script**.
 - 📦 Import real-time and historical data to **Google Looker Studio**
 - 🚀 Explore, analyze, and visualize volunteer data with interactive dashboards!
+
+<p>&nbsp;</p>
+
+## 🛠️ Tech Stack
+**Programming Language**: Python 3.x(for testing) - Optional 
+                          Java
+**Libraries/Tools**:
+- **📨Postman**: Send an API request
+- **🔄Google App Script**: Automate data retrieval by pulling data from the Galaxy Digital API into Google Sheets.
+- **🐍 Python** – Used for learning about the dataset and testing with the API:
+  - requests – To interact with the Galaxy Digital API
+  - pandas – For data processing and storage
+  - json – Handling API responses
 
