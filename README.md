@@ -1,8 +1,8 @@
  # 🚀Tri-City Volunteer Volunteer Data Automation - 03/2025
 -----------------------------------------------------------------------------------
-**🛠️Prepared by: Zach Wei** |
-Contact: zw0914work@outlook.com |
-Phone: 5202446087
+ - **🛠️Prepared by: Zach Wei** 
+- : zw0914work@outlook.com 
+- Phone: 5202446087
 
 ## 📌 Introduction
 This project is designed to fetch and analyze volunteer data from **Galaxy Digital**’s Volunteer Management System API. It automates data retrieval to generate visualized insights, trend analysis, and reports, streamlining volunteer management and decision-making.
