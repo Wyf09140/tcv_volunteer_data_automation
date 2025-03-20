@@ -9,7 +9,7 @@ This project is designed to fetch and analyze volunteer data from **Galaxy Digit
 
 <a href="url"><img src="https://github.com/user-attachments/assets/80219984-9a02-4c5b-9425-33bca9f02746" align="left" height="620" width="1000" ></a>
 
-
+---
 
 ## 🎯 Features
 - 📡 Fetches volunteer information and shift data from Galaxy Digital API(*Rest API using bearer token*)
