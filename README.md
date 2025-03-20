@@ -41,12 +41,10 @@ This project is designed to fetch and analyze volunteer data from **Galaxy Digit
 
 - 2️⃣ Google Account Setup
  - A Google account is required for:
-  - Google Sheets 
-  - Google Apps Script 
-  - Google Looker Studio 
+   - Google Sheets 
+   - Google Apps Script 
+   - Google Looker Studio 
 
 
 
-- 🔗 Integrates with **Google Sheets** as a data connector via **Google Apps Script**.
-- 📦 Import real-time and historical data to **Google Looker Studio**
-- 🚀 Explore, analyze, and visualize volunteer data with interactive dashboards!
+
