@@ -11,6 +11,7 @@ This project is designed to fetch and analyze volunteer data from **Galaxy Digit
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
 ## 🎯 Features
 - 📡 Fetches volunteer information and shift data from Galaxy Digital API(*Rest API using bearer token*)
 - 🔗 Integrates with **Google Sheets** as a data connector via **Google Apps Script**.
