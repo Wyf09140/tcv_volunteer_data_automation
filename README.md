@@ -31,3 +31,22 @@ This project is designed to fetch and analyze volunteer data from **Galaxy Digit
   - pandas – For data processing and storage
   - json – Handling API responses
 
+<p>&nbsp;</p>
+
+## ✅ Prerequisites
+- 1️⃣ Work with the Volunteer Manager
+  - Obtain Galaxy Digital account credentials (username & password).
+  - Create an API key in the Galaxy Digital system to enable API access.
+  - Learn about terms
+
+- 2️⃣ Google Account Setup
+ - A Google account is required for:
+  - Google Sheets 
+  - Google Apps Script 
+  - Google Looker Studio 
+
+
+
+- 🔗 Integrates with **Google Sheets** as a data connector via **Google Apps Script**.
+- 📦 Import real-time and historical data to **Google Looker Studio**
+- 🚀 Explore, analyze, and visualize volunteer data with interactive dashboards!
