@@ -2,5 +2,5 @@
 
 ## 📌 Introduction
 This project is designed to fetch and analyze volunteer data from **Galaxy Digital**’s Volunteer Management System API. It automates data retrieval to generate visualized insights, trend analysis, and reports, streamlining volunteer management and decision-making.
-![image]()
-<img src="[https://your-github-image-url.png](https://github.com/user-attachments/assets/8a3fd4dd-eb8d-4690-992e-9c3fe4b21abc?raw=true)" alt="Dashboard Example" width="200">
+
+<img src="[https://raw.githubusercontent.com/your-username/your-repo/main/images/dashboard.png](https://github.com/user-attachments/assets/2d789462-d227-4a65-9376-fbdd4fc12395" alt="Dashboard Example" width="500">
