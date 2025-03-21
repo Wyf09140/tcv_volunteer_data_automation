@@ -43,8 +43,12 @@ This project is designed to fetch and analyze volunteer data from **Galaxy Digit
  - A Google account is required for:
    - Google Sheets 
    - Google Apps Script 
-   - Google Looker Studio 
+   - Google Looker Studio
 
+ <p>&nbsp;</p>
 
+## 🔑 API Access
 
+- 1️⃣ Work with the Volunteer Manager
+*--*/
 
