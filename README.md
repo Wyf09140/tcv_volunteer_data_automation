@@ -50,5 +50,49 @@ This project is designed to fetch and analyze volunteer data from **Galaxy Digit
 ## 🔑 API Access
 
 - 1️⃣ Work with the Volunteer Manager
-     - Create a API Key in Gaxaly Digital System - Watch This:[GitHub]([https://github.com](https://www.galaxydigital.com/software-release-notes/october-2023) 
+     - Create a API Key in Gaxaly Digital System - Watch This:[Video]([https://github.com](https://www.galaxydigital.com/software-release-notes/october-2023))
+ 1.	  Watch the video
+-	Log in the galaxy digital account
+-	Go setting – API Management – Create a API Key 
+
+- 2️⃣	Send a API request (Watch the vide from 0:00 – 5:00)
+-	Get the bearer token for the future API use
+	Log in your Postman 
+	Set a Post
+	Paste the endpoint url to api////users/login
+	Paste the login account/password/API in the boby in the format like this xxx
+	Click SEND, you will get the bearer token
+-	Use the bearer token to get the target data
+	Read the Galaxy Digital API document to see the data you want to GET
+	Set A GET
+	Paste the endpoint URL according to the API document
+	Set the AUTH to Bearer Token and paste the bearer token 
+	Click SEND, you will see the json file
+
+## 🔗	Set up the App Script as a connector 
+a.	Set up your google sheet where the data store 
+1.	Log in to your google sheet 
+2.	Create a blank google sheet 
+3.	Click the Extension manage, choose the App Scirpt
+4.	You will see a  App Script project open 
+b.	Set up the App Scirpt with a triggler 
+i.	1. Paste the XXXX into it
+ii.	Replace the  endpoint url and Bearer Token
+iii.	Customize the columns you want to pull from the Galaxy Digital and your columns name
+1.	Find the target data’s schema and copy and paste it with the Java code sample I provide to ChatGPT to help you generate the updated code
+iv.	Set up your trigger   
+v.	Save and run it
+vi.	Go back to the Google sheet associated with this App Scirppt, you will see the target data store
+4.	Connect the sheet with Google Looker studio and create the dashboard.
+i.	Log in/up your Google Looker stuio
+ii.	Create a project and give a proper name
+iii.	Click add data and choose the Google sheet that stores your target data
+iv.	Let’s play with data!!!
+
+                   
+
+
+
+ 
+
 
