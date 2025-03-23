@@ -50,24 +50,28 @@ This project is designed to fetch and analyze volunteer data from **Galaxy Digit
 ## 🔑 API Access
 
 - 1️⃣ Work with the Volunteer Manager
-     - Create a API Key in Gaxaly Digital System - Watch This:[Video]([https://github.com](https://www.galaxydigital.com/software-release-notes/october-2023))
- 1.	  Watch the video
--	Log in the galaxy digital account
--	Go setting – API Management – Create a API Key 
+     - Create a API Key in Gaxaly Digital System - Watch This:[GitHub](https://www.galaxydigital.com/software-release-notes/october-2023)
+     -	Log into Galaxy Digital account
+     -	Go setting – API Management – Create a API Key and keep it
 
 - 2️⃣	Send a API request (Watch the vide from 0:00 – 5:00)
--	Get the bearer token for the future API use
-	Log in your Postman 
-	Set a Post
-	Paste the endpoint url to api////users/login
-	Paste the login account/password/API in the boby in the format like this xxx
-	Click SEND, you will get the bearer token
--	Use the bearer token to get the target data
-	Read the Galaxy Digital API document to see the data you want to GET
-	Set A GET
-	Paste the endpoint URL according to the API document
-	Set the AUTH to Bearer Token and paste the bearer token 
-	Click SEND, you will see the json file
+     -	Get the bearer token for the future API use
+          - Log in your Postman 
+          - Set a Post
+          - Paste the endpoint url to "https://api.galaxydigital.com/api/users/login"
+          - Paste the login account/password/API in the Boby - Raw in the format like this:
+                -   {
+                        "key": "API key",
+                        "user_email": "Galaxy Digital Email",
+                        "user_password":"Password"
+                    }
+           -	Click SEND, you will get the bearer token
+     -	Use the bearer token to get the target data
+           -  Read the Galaxy Digital API document to see the data you want to GET(https://api.galaxydigital.com/docs/#/)
+           -	Set A GET in Postman
+           -	Paste the endpoint URL according to the API document
+           - Set the AUTH to Bearer Token and paste the bearer token 
+           - Click SEND, you will see the json file
 
 ## 🔗	Set up the App Script as a connector 
 a.	Set up your google sheet where the data store 
