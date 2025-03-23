@@ -88,7 +88,7 @@ This project is designed to fetch and analyze volunteer data from **Galaxy Digit
 3. 🖥️Go to Extensions → Apps Script to open a new Apps Script project.
 
 ### b. Configure the Apps Script ⚙️
-1. 📝Paste the provided **Sample Apps Script Java** into the script editor.
+1. 📝Paste the provided **Sample Apps Script JavaScript** into the script editor.
 2. 🔄Replace the endpoint URL and Bearer Token with your own.
 3. 📊Customize the columns to match the data schema from Galaxy Digital and your Google Sheet.
 4. Set up and configure a trigger to automate data pulling.
