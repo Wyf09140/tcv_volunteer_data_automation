@@ -93,7 +93,9 @@ This project is designed to fetch and analyze volunteer data from **Galaxy Digit
 3. 📊Customize the columns to match the data schema from Galaxy Digital and your Google Sheet.
 4. Set up and configure a trigger to automate data pulling.
 5. 📈Save and run the script to populate your Google Sheet with data.
+   
 <p>&nbsp;</p>
+
 ## Connect to Google Looker Studio and Create a Dashboard 📊
 1. 🌐Log into or sign up for Google Looker Studio.
 2. 🏷️Start a new project and name it appropriately.
