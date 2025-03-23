@@ -57,8 +57,8 @@ This project is designed to fetch and analyze volunteer data from **Galaxy Digit
 
 ### 2️⃣ Send an API Request 📧
 - **Obtain the Bearer Token for Future API Use** 🐻
-  - Open Postman 📬.
-  - Set the method to POST 📤.
+  - Open Postman.
+  - Set the method to POST.
   - Enter the endpoint URL: `https://api.galaxydigital.com/api/users/login`
   - In the Body section (set to Raw), enter the following JSON:
     ```json
@@ -81,19 +81,19 @@ This project is designed to fetch and analyze volunteer data from **Galaxy Digit
 
 ## 🔗 Set up the App Script as a Connector 🛠️
 ### a. Set Up Your Google Sheet to Store Data 📋
-1. Log into your Google Sheets 📑.
-2. Create a new blank sheet 🆕.
-3. Go to Extensions → Apps Script to open a new Apps Script project 🖥️.
+1. 📑Log into your Google Sheets.
+2. 🆕Create a new blank sheet.
+3. 🖥️Go to Extensions → Apps Script to open a new Apps Script project.
 
 ### b. Configure the Apps Script ⚙️
-1. Paste the provided **Sample Apps Script Java** into the script editor 📝.
-2. Replace the endpoint URL and Bearer Token with your own 🔄.
-3. Customize the columns to match the data schema from Galaxy Digital and your Google Sheet 📊.
-4. Set up and configure a trigger to automate data pulling 🔄.
-5. Save and run the script to populate your Google Sheet with data 📈.
-
+1. 📝Paste the provided **Sample Apps Script Java** into the script editor.
+2. 🔄Replace the endpoint URL and Bearer Token with your own.
+3. 📊Customize the columns to match the data schema from Galaxy Digital and your Google Sheet.
+4. Set up and configure a trigger to automate data pulling.
+5. 📈Save and run the script to populate your Google Sheet with data.
+<p>&nbsp;</p>
 ## Connect to Google Looker Studio and Create a Dashboard 📊
-1. Log into or sign up for Google Looker Studio 🌐.
-2. Start a new project and name it appropriately 🏷️.
-3. Click "Add Data" and select the Google Sheet storing your data 📌.
-4. Begin creating visualizations and exploring the data 🎨.
+1. 🌐Log into or sign up for Google Looker Studio.
+2. 🏷️Start a new project and name it appropriately.
+3. 📌Click "Add Data" and select the Google Sheet storing your data.
+4. 🎨Begin creating visualizations and exploring the data.
