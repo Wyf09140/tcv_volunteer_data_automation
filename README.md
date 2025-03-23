@@ -47,56 +47,53 @@ This project is designed to fetch and analyze volunteer data from **Galaxy Digit
 
  <p>&nbsp;</p>
 
-## 🔑 API Access
+## 🔑 API Access 🌐
 
-- 1️⃣ Work with the Volunteer Manager
-     - Create a API Key in Gaxaly Digital System - Watch This:[GitHub](https://www.galaxydigital.com/software-release-notes/october-2023)
-     -	Log into Galaxy Digital account
-     -	Go setting – API Management – Create a API Key and keep it
+### 1️⃣ Work with the Volunteer Manager 🔧
+- **Create an API Key in Galaxy Digital System** 🗝️
+  - [Watch This Guide 🎥](https://www.galaxydigital.com/software-release-notes/october-2023)
+  - Log into your Galaxy Digital account 🌟.
+  - Navigate to Settings → API Management → Create an API Key and keep it secure 🔒.
 
-- 2️⃣	Send a API request (Watch the vide from 0:00 – 5:00)
-     -	Get the bearer token for the future API use
-          - Log in your Postman 
-          - Set a Post
-          - Paste the endpoint url to "https://api.galaxydigital.com/api/users/login"
-          - Paste the login account/password/API in the Boby - Raw in the format like this:
-                -   {
-                        "key": "API key",
-                        "user_email": "Galaxy Digital Email",
-                        "user_password":"Password"
-                    }
-           -	Click SEND, you will get the bearer token
-     -	Use the bearer token to get the target data
-           -  Read the Galaxy Digital API document to see the data you want to GET(https://api.galaxydigital.com/docs/#/)
-           -	Set A GET in Postman
-           -	Paste the endpoint URL according to the API document
-           - Set the AUTH to Bearer Token and paste the bearer token 
-           - Click SEND, you will see the json file
+### 2️⃣ Send an API Request 📧
+- **Obtain the Bearer Token for Future API Use** 🐻
+  - Open Postman 📬.
+  - Set the method to POST 📤.
+  - Enter the endpoint URL: `https://api.galaxydigital.com/api/users/login`
+  - In the Body section (set to Raw), enter the following JSON:
+    ```json
+    {
+      "key": "Your API key",
+      "user_email": "your@email.com",
+      "user_password": "yourPassword"
+    }
+    ```
+  - Click SEND to receive your bearer token 📩.
 
-## 🔗	Set up the App Script as a connector 
-a.	Set up your google sheet where the data store 
-1.	Log in to your google sheet 
-2.	Create a blank google sheet 
-3.	Click the Extension manage, choose the App Scirpt
-4.	You will see a  App Script project open 
-b.	Set up the App Scirpt with a triggler 
-i.	1. Paste the XXXX into it
-ii.	Replace the  endpoint url and Bearer Token
-iii.	Customize the columns you want to pull from the Galaxy Digital and your columns name
-1.	Find the target data’s schema and copy and paste it with the Java code sample I provide to ChatGPT to help you generate the updated code
-iv.	Set up your trigger   
-v.	Save and run it
-vi.	Go back to the Google sheet associated with this App Scirppt, you will see the target data store
-4.	Connect the sheet with Google Looker studio and create the dashboard.
-i.	Log in/up your Google Looker stuio
-ii.	Create a project and give a proper name
-iii.	Click add data and choose the Google sheet that stores your target data
-iv.	Let’s play with data!!!
+- **Use the Bearer Token to Retrieve Data** 📊
+  - Consult the [Galaxy Digital API Documentation 📚](https://api.galaxydigital.com/docs/#/) to identify the desired data.
+  - In Postman, set the method to GET 🔍.
+  - Enter the relevant endpoint URL from the API documentation.
+  - Set AUTH to Bearer Token and paste your bearer token 🎫.
+  - Click SEND to view the JSON file containing the data 📁.
+    
+<p>&nbsp;</p>
 
-                   
+## 🔗 Set up the App Script as a Connector 🛠️
+### a. Set Up Your Google Sheet to Store Data 📋
+1. Log into your Google Sheets 📑.
+2. Create a new blank sheet 🆕.
+3. Go to Extensions → Apps Script to open a new Apps Script project 🖥️.
 
+### b. Configure the Apps Script ⚙️
+1. Paste the provided **Sample Apps Script Java** into the script editor 📝.
+2. Replace the endpoint URL and Bearer Token with your own 🔄.
+3. Customize the columns to match the data schema from Galaxy Digital and your Google Sheet 📊.
+4. Set up and configure a trigger to automate data pulling 🔄.
+5. Save and run the script to populate your Google Sheet with data 📈.
 
-
- 
-
-
+## Connect to Google Looker Studio and Create a Dashboard 📊
+1. Log into or sign up for Google Looker Studio 🌐.
+2. Start a new project and name it appropriately 🏷️.
+3. Click "Add Data" and select the Google Sheet storing your data 📌.
+4. Begin creating visualizations and exploring the data 🎨.
